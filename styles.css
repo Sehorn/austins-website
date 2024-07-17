@@ -1,5 +1,6 @@
 body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -8,14 +9,33 @@ body {
 }
 
 .centered-content {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 a {
     color: inherit;
     text-decoration: none;
+    margin-bottom: 50px;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 15px;
+    border: solid;
+    border-color: black;
+    background-color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
 }
