@@ -1,72 +1,72 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap");
 
 * {
-    font-family: "IBM Plex Mono"
+  font-family: "IBM Plex Mono";
 }
 
-
 body {
-    background-color: #202020;
-    color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
+  background-color: #202020;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
 }
 
 .centered-content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h2 {
-    font-size: 26px;
+  font-size: 26px;
 }
 
 a {
-    font-size: 18px;
-    color: white;
-    margin-bottom: 30px;
-    text-decoration: none;
+  font-size: 18px;
+  color: white;
+  margin-bottom: 30px;
+  text-decoration: none;
 }
 
 .maillink {
-    text-decoration: underline;
-    text-underline-offset: 4px; /* Adjust this value as needed */
-    text-decoration-color: #202020;
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  /* Adjust this value as needed */
+  text-decoration-color: #202020;
 }
 
 .maillink:hover {
-    text-decoration-style: dashed;
-    text-decoration-color: white;
+  text-decoration-style: dashed;
+  text-decoration-color: white;
 }
 
 .titlelink {
-    font-size: 26px;
-    color: #C0C0C0;
+  font-size: 26px;
+  color: #c0c0c0;
 }
 
 .titlelink:hover {
-    color: white;
+  color: white;
 }
 
 button {
-    font-family: inherit;
-    padding: 4px 8px;
-    font-size: 16px;
-    border: solid 1px;
-    border-color: #C0C0C0;
-    color: white;
-    background-color: #202020;
-    cursor: pointer;
-    transition: background-color 0.3s;
+  font-family: inherit;
+  padding: 4px 8px;
+  font-size: 16px;
+  border: solid 1px;
+  border-color: #c0c0c0;
+  color: white;
+  background-color: #202020;
+  cursor: pointer;
+  transition: background-color 0.3s;
 }
 
 button:hover {
-    border-color: white;
-    color: white;
+  border-color: white;
+  color: white;
 }
